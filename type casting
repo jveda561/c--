@@ -1,0 +1,13 @@
+3. Type casting
+#include <stdio.h>
+int main() {
+    int  a=4;
+    float b=5.5;
+    printf("\n",b);
+    int c;
+    c=(int)b;
+    printf("\n",c);
+    
+     
+     
+return 0;
