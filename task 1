@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int a,v,s,d,o,p;
+    printf("enter the values of a,v\n");
+    scanf("%d%d",&a,&v);
+    s=a+v;
+    d=a-v;
+    o=a*v;
+    p=a/v;
+    printf("s,d,o,p,%d %d %d %d \n",s,d,o,p);
+}
