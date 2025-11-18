@@ -1,0 +1,9 @@
+#include <stdio.h>
+int dogname(){
+   printf(" ramu\n");
+   printf(" jimmy\n");
+   printf(" fukoo\n");
+}
+int main() {
+dogname();
+}
