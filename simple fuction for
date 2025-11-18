@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int subraction(int q,int w){
+    
+   int e=q-w;
+    printf("the sub is:,%d\n",e);
+    return e;
+}
+int main() {
+subraction(3, 4);
+}
