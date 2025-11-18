@@ -1,0 +1,26 @@
+#include <stdio.h>
+int person(int name,int age,int department){
+    printf("%d,name is:Veda j\n",name);
+    printf("%d,age is :18\n",age);
+    printf("%d,my department is Cse\n",department);
+    return age;
+}
+int main() {
+person('v', 18, 'C');
+}
+need to do type conversion.
+#include <stdio.h>
+int person(){
+    char name;
+    int age;
+    char dept;
+    printf("name is:\n",name);
+    scanf("%c",&name);
+    printf("age is:\n",age);
+    scanf("%d",&age);
+    printf("my department: \n",dept);
+    scanf("%s",&dept);
+}
+int main() {
+person();
+}
