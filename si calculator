@@ -1,0 +1,15 @@
+#include <stdio.h>
+int sicalculator(){
+    int p,t,r,si;
+   printf("enter princple amount\n");
+   scanf("%d",&p);
+   printf("enternp. of years \n");
+   scanf("%d",&t);
+   printf("enter rate of interst\n");
+   scanf("%d",&r);
+   si=(p*t*r)/100;
+   printf("the si is:,%d\n",si );
+}
+int main() {
+sicalculator();
+}
