@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int num,og,rem,rev=0;
+    printf("enter a num:");
+    scanf("%d",&num);
+    og=num;
+    while(num!=0){
+    rem=num%10;
+    rev=rev*10+rem;
+    num/=10;
+}
+if(og==rev){
+    printf("Its  a Pali");
+} else{
+    printf("Its  not a Pali");
+}
+}
+ 
