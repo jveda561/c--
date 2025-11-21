@@ -1,0 +1,8 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int *viv = (int*) malloc(sizeof(int));
+    *viv=400;
+    printf("%d",*viv);
+}
