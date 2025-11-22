@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+enum days {
+ vivi=20,
+ viki=70,
+ ramukaka=80,
+    
+};
+int main() {
+    enum days tody ;
+    tody=ramukaka;
+    printf("%d",tody);
+}
