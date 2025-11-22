@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+union grey {
+    int tody;
+    float salary;
+    
+};
+int main() {
+   union grey y;
+    y.tody=1200;
+    printf("%d",y.tody);
+}
